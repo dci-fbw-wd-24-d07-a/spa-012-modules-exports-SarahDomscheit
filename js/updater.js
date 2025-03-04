@@ -15,7 +15,7 @@ function checkValid() {
   return true;
 }
 
-function update() {
+export default function update() {
   // Guard clause to validate user inputs
   if (!checkValid()) {
     return;
